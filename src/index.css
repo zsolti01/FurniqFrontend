@@ -4,3 +4,14 @@
     box-sizing: border-box;
     font-family: 'Poppins', 'Segoe UI', Tahoma, sans-serif;
 }
+
+.app-layout{
+    display: flex;
+    min-height: calc(100vh - 68px);
+}
+
+.main-content {
+    flex: 1;
+    min-width: 0;
+    padding: 30px;
+}

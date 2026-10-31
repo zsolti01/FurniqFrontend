@@ -1,17 +1,24 @@
 import './Sidebar.css'
 
 export default function Sidebar() {
+
+  const categories = [
+    'Living Room',
+    'Bedroom',
+    'Kitchen & Dining',
+    'Home Office',
+    'Bathroom',
+    'Hallway',
+    'Outdoor & Garden'
+  ];
+
   return (
     <div className="sidebar">
         <p className='sidebar-header'>Our categories</p>
         <div className='categories'>
-            <p>Living Room</p>
-            <p>Bedroom</p>
-            <p>Kitchen & Dining</p>
-            <p>Home Office</p>
-            <p>Bathroom</p>
-            <p>Hallway</p>
-            <p>Outdoor & Garden</p>
+          {categories.map((category) => (
+            <p key={category}>{category}</p>
+          ))}
         </div>
     </div>
   )

@@ -1,3 +1,4 @@
+import '../src/index.css'
 import Navbar from './components/Navbar/Navbar'
 import Sidebar from './components/Sidebar/Sidebar'
 
@@ -7,7 +8,14 @@ function App() {
     <>
     <div>
       <Navbar />
-      <Sidebar />
+
+      <div className='app-layout'>
+        <Sidebar />
+
+        <main className='main-content'>
+
+        </main>
+      </div>
     </div>
     </>
   )
