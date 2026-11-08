@@ -1,6 +1,7 @@
-import '../src/index.css'
+import './index.css'
 import Navbar from './components/Navbar/Navbar'
 import Sidebar from './components/Sidebar/Sidebar'
+import ProductsPage from './pages/ProductsPage/ProductsPage'
 
 function App() {
 
@@ -13,7 +14,7 @@ function App() {
         <Sidebar />
 
         <main className='main-content'>
-
+          <ProductsPage />
         </main>
       </div>
     </div>

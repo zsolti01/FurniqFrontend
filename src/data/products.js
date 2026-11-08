@@ -136,15 +136,4 @@ const products = [
     }
 ];
 
-const container = document.getElementById("loadProducts");
-products.forEach(product => {
-    const productCard = document.createElement("div");
-    productCard.classList.add("product-card");
-    productCard.innerHTML = `
-        <img src="${product.img}" alt="${product.name}">
-        <h2>${product.name}</h2>
-        <p>${product.price} Ft</p>
-        <button>Details</button>
-    `;
-    container.appendChild(productCard);
-});
+export default products;
