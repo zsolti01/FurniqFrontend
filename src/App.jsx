@@ -1,20 +1,14 @@
-import './index.css'
-import Navbar from './components/Navbar/Navbar'
-import Sidebar from './components/Sidebar/Sidebar'
-import ProductsPage from './pages/ProductsPage/ProductsPage'
+import './app.css'
+import MainPage from './pages/MainPage/MainPage'
 
 function App() {
 
   return (
     <>
     <div>
-      <Navbar />
-
       <div className='app-layout'>
-        <Sidebar />
-
         <main className='main-content'>
-          <ProductsPage />
+          <MainPage />
         </main>
       </div>
     </div>
