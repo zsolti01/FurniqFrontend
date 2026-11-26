@@ -1,0 +1,12 @@
+header{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    min-height: 600px;
+    max-height: 800px;
+}
+
+img{
+    width: 100%;
+    display: flex;
+}
