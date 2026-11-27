@@ -37,9 +37,9 @@
 }
 
 .product-info button{
-    width: 100%;
+    width: 40%;
     padding: 10px;
-    border: 1.5px solid black;
+    border: 0px solid black;
     border-radius: 8px;
     background-color: #B99562;
     color: white;

@@ -3,7 +3,7 @@
     border-radius: 12px;
     overflow: hidden;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
-    height: 500px;
+    text-align: center;
 }
 
 .category-card:hover{

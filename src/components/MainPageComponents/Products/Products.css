@@ -1,0 +1,16 @@
+.products-component{
+    padding: 100px;
+    padding-top: 0px;
+    color: #49382C;
+}
+
+.products-component h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.products-grid{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 25px;
+}
