@@ -10,7 +10,7 @@ export default function Products() {
 
       <div className="products-grid">
 
-        {products.slice(0, 4).map((product) => (
+        {products.slice(0, 6).map((product) => (
           <ProductCard key={product.id} product={product} />
         ))}
 

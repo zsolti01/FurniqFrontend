@@ -1,9 +1,11 @@
 .category-card{
     background-color: #F0E8E1;
-    border-radius: 12px;
+    border: 1.5px solid #DED6CB;
+    border-radius: 20px;
     overflow: hidden;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     text-align: center;
+    cursor: pointer;
 }
 
 .category-card:hover{
@@ -11,13 +13,33 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-.product-card img{
-    width: 220px;
-    height: 220px;
-    padding: 15px;
+.category-card img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
 }
 
 .category-info{
     padding: 15px;
     color: #49382C;
+}
+
+.category-info h3{
+    font-size: 22px;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .category-card img{
+        height: 160px;
+    }
+
+    .category-info{
+        padding: 12px 8px;
+    }
+
+    .category-info h3{
+        font-size: 20px;
+    }
 }

@@ -1,7 +1,7 @@
 .product-card{
     background-color: white;
     border: 1.5px solid #DED6CB;
-    border-radius: 12px;
+    border-radius: 20px;
     overflow: hidden;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
@@ -19,12 +19,15 @@
 }
 
 .product-info{
+    background-color: #F0E8E1;
+    border-top: 1.5px solid #DED6CB;
     padding: 15px;
     color: #49382C;
 }
 
 .product-info h3{
     margin-bottom: 8px;
+    font-size: 22px;
 }
 
 .product-info p{
@@ -34,15 +37,17 @@
 
 .product-info h4{
     margin-bottom: 15px;
+    font-size: 20px;
 }
 
 .product-info button{
     width: 40%;
     padding: 10px;
     border: 0px solid black;
-    border-radius: 8px;
+    border-radius: 10px;
     background-color: #B99562;
     color: white;
     cursor: pointer;
     font-size: 20px;
+    font-weight: bold;
 }

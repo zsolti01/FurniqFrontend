@@ -7,7 +7,7 @@ const products = [
     {
         id: 2,
         name: "Bedroom",
-        imgUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2iAbOio1M7yzbWlNX_zz09fLfDfkh4QS1xxIFFqz23w&s"
+        imgUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2X8zY7XSSlx7kLE-rlmbHcdpbSCGWUg08pupOwXmcAQ&s=10"
     },
     {
         id: 3,
@@ -17,12 +17,7 @@ const products = [
     {
         id: 4,
         name: "Dining Room",
-        imgUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-SOFlEGfz90JjbvQGHNygE-fbZci-vuJglIDAZ50O9A&s=10",
-    },
-    {
-        id: 5,
-        name: "Bathroom",
-        imgUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRHsbLtyStgkD8eTVMhU8MS8gdisB0Mr3Xl0w8aQ1Xsg&s=10",
+        imgUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKhLSFmKxF6gJbnj6njdK2xJwxYcgpVj0UvNdU1kJg0w&s=10",
     }
 ];
 
