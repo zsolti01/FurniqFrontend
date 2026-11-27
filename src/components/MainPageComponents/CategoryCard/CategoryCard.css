@@ -1,0 +1,23 @@
+.category-card{
+    background-color: #F0E8E1;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    height: 500px;
+}
+
+.category-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img{
+    width: 220px;
+    height: 220px;
+    padding: 15px;
+}
+
+.category-info{
+    padding: 15px;
+    color: #49382C;
+}

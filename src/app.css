@@ -12,6 +12,7 @@ html, body{
 
 body{
     overflow-y: auto;
+    background-color: #F7F3EF;
 }
 
 .app-layout{

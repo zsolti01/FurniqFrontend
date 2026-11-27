@@ -3,9 +3,13 @@ import './CategoryCard.css'
 export default function CategoryCard(props) {
   return (
     <>
-        <div className="categoryCard">
+        <div className="category-card">
+
             <img src={props.imgUrl} alt={props.name} />
-            <p className="categoryName">{props.name}</p>
+            <div className="category-info">
+              <p>{props.name}</p>
+            </div>
+
         </div>
     </>
   )
