@@ -5,6 +5,7 @@ import CategoryCard from '../CategoryCard/CategoryCard'
 export default function Categories() {
   return (
     <div className='categories-component'>
+
       <h2>Our top Categories</h2>
       
       <div className='categories-grid'>
@@ -12,6 +13,7 @@ export default function Categories() {
           return <CategoryCard name={category.name} imgUrl={category.imgUrl} />
         })}
       </div>
+
     </div>
   )
 }
