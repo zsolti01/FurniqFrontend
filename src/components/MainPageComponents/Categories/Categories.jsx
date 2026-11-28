@@ -10,7 +10,7 @@ export default function Categories() {
       
       <div className='categories-grid'>
         {categories.map((category) => {
-          return <CategoryCard name={category.name} imgUrl={category.imgUrl} />
+          return <CategoryCard key={category.id} name={category.name} imgUrl={category.imgUrl} />
         })}
       </div>
 

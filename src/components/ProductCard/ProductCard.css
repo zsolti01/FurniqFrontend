@@ -60,6 +60,14 @@
 }
 
 @media (max-width: 768px){
+    .product-card{
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .product-card:hover{
+        transform: translateY(-10px);
+    }
+
     .product-card img{
         height: 150px;
         padding: 10px;
