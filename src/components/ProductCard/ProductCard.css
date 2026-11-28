@@ -4,6 +4,8 @@
     border-radius: 20px;
     overflow: hidden;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
 }
 
 .product-card:hover{
@@ -16,6 +18,7 @@
     height: 220px;
     object-fit: contain;
     padding: 15px;
+    box-sizing: border-box;
 }
 
 .product-info{
@@ -23,6 +26,9 @@
     border-top: 1.5px solid #DED6CB;
     padding: 15px;
     color: #49382C;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .product-info h3{
@@ -36,12 +42,13 @@
 }
 
 .product-info h4{
-    margin-bottom: 15px;
+    margin: auto 0 15px 0;
     font-size: 20px;
 }
 
 .product-info button{
     width: 40%;
+    min-width: 110px;
     padding: 10px;
     border: 0px solid black;
     border-radius: 10px;
@@ -50,4 +57,37 @@
     cursor: pointer;
     font-size: 20px;
     font-weight: bold;
+}
+
+@media (max-width: 768px){
+    .product-card img{
+        height: 150px;
+        padding: 10px;
+    }
+
+    .product-info{
+        padding: 12px;
+    }
+
+    .product-info h3{
+        font-size: 17px;
+    }
+
+    .product-info p{
+        font-size: 13px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+    .product-info h4{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .product-info button{
+        width: 100%;
+        font-size: 15px;
+        padding: 8px;
+    }
 }
