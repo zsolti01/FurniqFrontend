@@ -1,7 +1,7 @@
 .hero{
     width: 100%;
     padding: 40px 5%;
-    background-color: #F5EDE6;
+    background-color: #F7F3EF;
 }
 
 .hero-content{
@@ -73,4 +73,53 @@
     object-fit: cover;
     object-position: center;
     display: block;
+}
+
+@media screen and (max-width: 900px){
+    .hero{
+        padding: 35px 4%;
+    }
+
+    .hero-content{
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+
+    .hero-right{
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .hero{
+        padding: 20px 3%;
+    }
+
+    .hero-content{
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .hero-left{
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-left h1{
+        font-size: 2.3rem;
+        margin-bottom: 18px;
+    }
+
+    .hero-left p{
+        font-size: 1rem;
+        margin-bottom: 24px;
+    }
+
+    .hero-right{
+        height: 260px;
+    }
+
+    .hero-button{
+        padding: 13px 25px;
+    }
 }
