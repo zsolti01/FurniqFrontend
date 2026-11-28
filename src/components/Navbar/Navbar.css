@@ -56,7 +56,7 @@
     align-items: center;
 }
 
-.navbar ul li{
+.navbar ul Link li{
     display: inline-block;
     margin-left: 45px;
     cursor: pointer;
